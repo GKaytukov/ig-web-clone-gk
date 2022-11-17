@@ -32,7 +32,7 @@ export default function UploadModal({ setShowUpload, setPhotoList }) {
         //4. Send a post request to API
         fetch('https://express-ts-gk.web.app/photos',{ 
         method: 'POST',
-        headers: {'Content-Type': 'application//json' }, 
+        headers: {'Content-Type': 'application/json' }, 
         body: JSON.stringify(newPhotoObj)
     })
 
